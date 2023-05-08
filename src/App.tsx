@@ -1,9 +1,9 @@
-import "./App.css";
+import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-red-500">init</h1>
+    <div className="App w-full h-screen bg-slate-200">
+      <Container />
     </div>
   );
 }
