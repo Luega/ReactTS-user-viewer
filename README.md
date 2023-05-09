@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Random User Viewer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that fetches fake user data from the Random User Generator API and displays it on a user interface. The app allows you to change the name of the user using an input field.
 
-## Available Scripts
+- Utilizes React for building the UI components.
+- Uses TypeScript for type safety.
+- Implements Tailwind CSS for styling the user interface.
+- Uses CSS modules for local scope CSS styling.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Fetches random user data from the Random User Generator API.
+- Displays the fetched user data on the user interface.
+- Allows the user to change the name of the displayed user using an input field.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![My Image](screenshot/screenshot1.png)
+![My Image](screenshot/screenshot2.png)
+![My Image](screenshot/screenshot3.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1.  Clone the repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+ git clone https://github.com/Luega/ReactTS-user-viewer.git
+```
 
-### `npm run build`
+2. Change the working directory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  cd /ReactTS-user-viewer
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install
+```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Start the development server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Open your browser and visit http://localhost:3000 to see the app in action.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. The app will automatically fetch random user data from the Random User Generator API and display it on the user interface. You can change the name of the user by typing in the input field provided.
 
-## Learn More
+## Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React - JavaScript library for building user interfaces.
+- TypeScript - Typed superset of JavaScript.
+- Tailwind CSS - Utility-first CSS framework.
+- Random User Generator API - External API for generating random user data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
