@@ -13,5 +13,4 @@ export type Address = {
   postcode: string;
   city: string;
   country: string;
-  state: string;
 };

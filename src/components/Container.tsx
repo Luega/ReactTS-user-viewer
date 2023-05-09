@@ -26,7 +26,6 @@ const Container = () => {
           postcode: data.location.postcode,
           city: data.location.city,
           country: data.location.country,
-          state: data.location.state,
         },
         email: data.email,
         cell: data.cell,

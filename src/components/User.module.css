@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.card__top {
+  background-color: rgb(251, 226, 231);
+}
+
+.user__picture {
+  min-width: 100px;
+  min-height: auto;
+}
+
+.user__name {
+  font-family: "Bebas Neue", cursive;
+}

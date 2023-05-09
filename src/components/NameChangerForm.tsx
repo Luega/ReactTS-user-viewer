@@ -17,9 +17,9 @@ const NameChangerForm = (props: Props) => {
   return (
     <form
       onSubmit={submitHandler}
-      className="w-80 p-2 mb-10 flex flex-col bg-white border border-black rounded-md shadow-lg"
+      className={`${classes.user__formName} w-80 px-4 py-2 mb-10 flex flex-col border border-black rounded-md shadow-lg`}
     >
-      <input ref={newName} type="text" placeholder="Name..." />
+      <input ref={newName} type="text" placeholder="New name..." required />
       <button type="submit">Change Name</button>
     </form>
   );
