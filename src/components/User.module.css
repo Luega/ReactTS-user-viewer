@@ -12,3 +12,22 @@
 .user__name {
   font-family: "Bebas Neue", cursive;
 }
+
+.card__top__right,
+.card__top__left {
+  transition: all 1s ease-out;
+}
+
+.user__card:hover .card__top {
+  border-radius: 0;
+}
+
+.user__card:hover .card__top__right,
+.user__card:hover .card__top__left {
+  transform: translateY(35px);
+}
+
+.user__card:hover .card__bottom {
+  visibility: visible;
+  opacity: 1;
+}
