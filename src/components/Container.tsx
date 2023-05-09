@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { UserType } from "../types";
 import User from "./User";
+import NameChangerForm from "./NameChangerForm";
 
 const Container = () => {
   const [user, setUser] = useState<UserType>();
@@ -30,7 +31,6 @@ const Container = () => {
         email: data.email,
         cell: data.cell,
       };
-      console.log(newUser);
       setUser(newUser);
     };
 
@@ -39,8 +39,13 @@ const Container = () => {
     return () => {};
   }, []);
 
+  const NameChangeHandler = (name: string) => {
+    setUser({ ...user!, name: name });
+  };
+
   return (
-    <div className="Container w-full pt-20 flex justify-center">
+    <div className="Container w-full pt-20 flex flex-col items-center">
+      <NameChangerForm setNewName={NameChangeHandler} />
       {user ? <User user={user} /> : <div>Loading...</div>}
     </div>
   );

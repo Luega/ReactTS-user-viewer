@@ -7,7 +7,7 @@ type Props = {
 
 const User = (props: Props) => {
   return (
-    <div className="user__card w-auto p-10 flex flex-col border border-black rounded-md shadow-lg">
+    <div className="user__card w-80 p-10 flex flex-col border border-black rounded-md shadow-lg">
       <div className="user__picture flex justify-center">
         <img src={props.user.picture} alt={props.user.name} />
       </div>

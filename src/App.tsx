@@ -1,8 +1,9 @@
+import classes from "./App.module.css";
 import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="App w-full h-screen bg-slate-200">
+    <div className={`${classes.App} w-full h-screen`}>
       <Container />
     </div>
   );
