@@ -7,6 +7,8 @@ This is a React application that fetches fake user data from the Random User Gen
 - Implements Tailwind CSS for styling the user interface.
 - Uses CSS modules for local scope CSS styling.
 
+[Take a look](https://user-viewer.netlify.app/)
+
 ## Features
 
 - Fetches random user data from the Random User Generator API.
